@@ -1,41 +1,58 @@
+# 🤖 Machine Learning & Statistical Inference Laboratory
 
-
-# 🤖 Machine Learning Fundamentals: Supervised Learning Lab
-
-This repository serves as a foundational laboratory for implementing and evaluating **Supervised Machine Learning** models. Each project bridges the gap between mathematical theory and real-world business applications, focusing on model interpretability and performance metrics.
+This repository serves as a centralized technical laboratory for implementing and evaluating **Supervised**, **Unsupervised**, and **Statistical Inference** models. Each project bridges the gap between mathematical theory and real-world industrial applications, with a focus on **Model Interpretability (XAI)**, **Feature Engineering**, and **Data Integrity**.
 
 ---
 
-## 📱 Featured Project: Smart-Device Price Segment Predictor
-**Goal:** Automated categorization of mobile devices into Budget, Mid-Range, and Flagship tiers using hardware specifications.
+## 🌟 Featured Research Projects
 
-### 🛠️ Technical Stack:
-- **Algorithms:** Decision Tree & Random Forest (Ensemble Learning).
-- **Optimization:** Stratified Sampling to ensure class balance.
-- **Evaluation:** Feature Importance analysis & Confusion Matrix.
+### 🍿 1. Netflix-Scale Experimentation Suite (Statistical Inference)
+**Goal:** Automate product deployment decisions by synthesizing Frequentist and Bayesian statistical methodologies.
+- **Implementation:** Built a dual-inference engine in Python that calculates **Z-test p-values** alongside **Bayesian "Probability of Success"** using Beta Distributions.
+- **Optimization:** Integrated **Power Analysis** to determine optimal sample sizes, mitigating the risk of Type II errors.
+- **Folder:** `/Statistical_Inference`
 
-### 📊 Performance Analysis
-![Mobile Model Performance](mobile_model_results.png)
-*Key Insight: RAM and Battery capacity were identified as the primary drivers of device pricing, achieving 100% precision in initial testing.*
+### 🕵️‍♂️ 2. User Persona Discovery (Unsupervised Learning)
+**Goal:** Discover hidden audience segments in unlabeled viewership data.
+- **Heuristics:** Utilized the **K-Means Clustering** algorithm combined with the **Elbow Method (WCSS)** to mathematically determine the optimal cluster count for targeted marketing.
+- **Feature Engineering:** Applied **StandardScaler** for Z-score normalization to ensure distance-metric integrity.
+- **Folder:** `/Unsupervised_Learning`
 
----
-
-## 🧪 Core Research & Logic
-### 1. Continuous Value Prediction (Linear Regression)
-- **File:** `linear_regression_salary.py`
-- **Use Case:** Predicting starting salaries based on academic GPA.
-- **Concepts:** Least Squares, Slope/Intercept mapping, and R-Squared validation.
-
-### 2. Binary Decision Logic (Logistic Regression)
-- **File:** `logistic_regression_fraud.py`
-- **Use Case:** High-risk transaction detection (Fraud vs. Safe).
-- **Concepts:** Sigmoid Function, Probability Thresholding, and Confusion Matrix.
+### 📱 3. Smart-Device Price Predictor (Supervised Learning)
+**Goal:** Automated categorization of mobile devices into Budget, Mid-Range, and Flagship tiers.
+- **Algorithms:** Benchmarked Decision Trees against **Random Forest Ensembles** to reduce model variance.
+- **Insights:** Conducted **Feature Importance** analysis to identify Battery and RAM as the primary predictors of device pricing.
+- **Folder:** `/Supervised_Learning`
 
 ---
 
-### 🧠 The Engineering Philosophy (Hercodes-ux)
-As an **MS Computer Science candidate**, I believe in the "Explainability" of AI. Beyond just achieving high accuracy, I focus on identifying **Feature Importance** to ensure that data insights drive strategic business value.
+## 🧪 Analytics & Foundations
+
+### 📊 Exploratory Data Analysis (EDA)
+- **Practice Lab:** `EDA_Practice.ipynb`
+- **Database:** Utilized the **Chinook.db** relational schema to perform deep-dives into sales trends, customer demographics, and product storage efficiency (Multivariate analysis).
+- **Techniques:** Logarithmic scaling for high-variance data and correlation heatmaps.
+
+### 🛠️ Core ML Implementations
+- **Linear Regression:** Continuous value forecasting for salary outcomes.
+- **Logistic Regression:** Probability-based binary classification for risk/fraud detection.
+- **KNN:** Distance-based classification for tiered service models.
+
+---
+
+## 🎓 Professional Accreditations
+*Verified industry training documentation located in the `/CERTIFICATE` folder:*
+- **AWS:** Fundamentals of Machine Learning and Artificial Intelligence (Feb 2026)
+- **Databricks:** Accredited AI Agent Fundamentals (Feb 2026)
+- **Databricks:** Generative AI Fundamentals (Feb 2026)
+- **Databricks:** Databricks Fundamentals (Feb 2026)
+
+---
+
+## 🧠 The Hercodes-ux Philosophy
+As an **MS Computer Science candidate at CSU**, I treat Machine Learning as an engineering discipline. My goal is to build transparent, "Explainable" systems where data-driven insights are backed by statistical rigor and professional-grade code architecture.
 
 ---
 **Author:** Harshini (@Hercodes-ux)  
-**Campus:** Cleveland State University (CSU)
+**Track:** MS Computer Science @ Cleveland State University  
+**Status:** Block 1 (Classical ML & Stats) - **COMPLETE ✅**
