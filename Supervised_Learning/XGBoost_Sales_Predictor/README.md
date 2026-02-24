@@ -4,7 +4,7 @@ The model was evaluated using a stratified test set to ensure class balance.
 #### **1. Feature Importance Analysis (Global Interpretability)**
 The chart below proves that **Cart_Items** is the dominant predictor of a purchase. This allows the business to prioritize "Add to Cart" UX optimizations over "Time on Page."
 
-![XGBoost Importance](Supervised_Learning/XGBoost_Sales_Predictor/xgboost_feature_importance.png)
+![XGBoost Importance](xgboost_feature_importance.png)
 
 #### **2. Execution Trace (Terminal Output)**
 ```bash
