@@ -42,7 +42,7 @@ This repository serves as a centralized technical laboratory for implementing an
 
 ## 🎓 Professional Accreditations
 *Verified industry training documentation located in the `/CERTIFICATE` folder:*
-- **AWS:** Fundamentals of Machine Learning and Artificial Intelligence (Feb 2026)
+- **AWS:** AWS Artificial Intelligence Practitioner Learning Plan(Feb 2026)
 - **Databricks:** Accredited AI Agent Fundamentals (Feb 2026)
 - **Databricks:** Generative AI Fundamentals (Feb 2026)
 - **Databricks:** Databricks Fundamentals (Feb 2026)
