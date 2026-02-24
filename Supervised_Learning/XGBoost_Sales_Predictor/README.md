@@ -20,19 +20,3 @@ Feature Importance (Cart/Time/Promo): [1. 0. 0.]
 
 
 
-### 3. Final Push to GitHub 🚀
-
-Run these commands in your terminal to get the image and the README updates live:
-
-```powershell
-# 1. Move to the main folder (Root)
-cd ../../..
-
-# 2. Stage the new image
-git add .
-
-# 3. Create the commit message
-git commit -m "Docs: Added XGBoost feature importance chart and execution trace"
-
-# 4. Push to GitHub
-git push origin main --force
